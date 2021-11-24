@@ -1,0 +1,44 @@
+body{
+    margin: 20px;
+    border: 0;
+}
+img {
+    height: 300px;
+    width: 550px;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(158, 158, 158);
+    border-color: black;
+    border-style: solid;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    background-color: lightgreen;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    height: 300px;
+}
+#LZ-title, #GT-title {
+    text-align: right;
+}
+.right-par{
+    text-align: left;
+    margin-left: 60%;
+    width: 40%;
+}
+.right-link{
+    float: right;
+}
+#halo, #mario, #streetfight{
+    left: 57%;
+}
+.left-par{
+    width: 40%;
+}

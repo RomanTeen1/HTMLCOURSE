@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding-left: 1%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5% 30% 1% 30%;
+    padding-top: 3%;
+    background-color: khaki;
+    border-radius: 5px;
+    height: 70px;
+    transition: transform 1s;
+    transition-delay: 0.1s;
+}
+h1:hover{
+    transform: skewX(-30deg);
+    
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+.img{
+    transition: transfrom 1s;
+    transition-delay: 0.2s;
+}
+.img1:hover{
+    filter: contrast(180%);
+}
+
+.img2{
+    transition: transfrom 1s;
+    transition-delay: 0.2s;
+}
+.img2:hover{
+    filter: drop-shadow(20px 20px 23px black)
+}
+
+.img3{
+    transition: transfrom 1s;
+    transition-delay: 0.2s;
+}
+
+.img3:hover{
+    filter: saturate(2);
+}

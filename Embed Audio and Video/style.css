@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background: linear-gradient(grey, rgb(189, 75, 75))
+}
+h1{
+    background: rgb(238, 67, 67);
+    font-family: sans-serif;
+    text-decoration: underline;
+}

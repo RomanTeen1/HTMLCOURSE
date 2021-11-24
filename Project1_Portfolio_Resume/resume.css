@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}
+address{
+    text-align: center;
+}
+#container{
+    background-color:aqua;
+}
+#container-me{
+    background: linear-gradient(45deg, yellow, blue)
+}
+#container-int{
+    background-image: linear-gradient(#e66465, #9198e5);
+}
+#container-site{
+    background-image: linear-gradient(#aa0882, #3dadad)
+}
+h2{
+    padding: 0 0 0 60px;
+}
+p{
+    font-size: larger;
+}
+#interest{
+    text-align: center;
+}
+#fav-site{
+    text-align: right;
+    padding: 0 100px 0 0;
+}
+#links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: lightblue;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,211 @@
+body{
+    margin: 0.5em 2em 0.5em 2em;
+    background: linear-gradient(rgb(134, 46, 46), rgb(224, 98, 224), rgb(72, 72, 207));
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center; 
+    background: radial-gradient(circle, rgb(223, 71, 71), rgb(81, 81, 224));
+    padding: 0.8em;
+}
+header h1{
+    border-style: solid none;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkgoldenrod;
+}
+
+.me{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+    font-size: 1.7rem;
+}
+nav ul li{
+    background-color: #ddd;
+    padding: 0.6em;
+    
+}
+li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background:rgb(63, 228, 145);
+    border-style: solid;
+    border-color: rosybrown;
+}
+
+.welcome{
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: left;
+    width: 35%;
+    font-size: 1.5rem;
+    background-color: rgb(238, 55, 55);
+    
+}
+.welcome h2{
+    background-color:rgb(63, 203, 228); 
+    padding: 0.3em;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px 2px white, 0 0 20px grey, 2px 2px 20px yellow;
+}
+.about {
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: right;
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: rgb(70, 70, 218);
+    
+}
+.about h2{
+    background-color: rgb(235, 173, 58);
+    padding: 0.3em;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px 2px white, 0 0 20px grey, 2px 2px 20px yellow;
+}
+.content{
+    clear: both;
+}
+.classes{
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: left;
+    width: 40%;
+    font-size: 1.5rem;
+    background-color: rgb(70, 70, 218);
+    
+}
+.classes h3{
+    background-color: rgb(235, 173, 58);
+    padding: 0.3em;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px 2px white, 0 0 10px grey, 2px 2px 10px yellow;
+}
+.classes ul li{
+    padding: 1em 0 1em 0;
+}
+.goals{
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: right;
+    width: 40%;
+    font-size: 1.5rem;
+    background-color: rgb(238, 55, 55);
+}
+.goals h3{
+    background-color:rgb(63, 203, 228); 
+    padding: 0.3em;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px 2px white, 0 0 20px grey, 2px 2px 20px yellow;
+}
+.top-section p, .content p{
+    background-color:rgb(189, 94, 181);
+    padding: 0.3em;
+}
+
+
+.field-set{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0.5em;
+}
+.field-set p{
+    font-size: 1.2em;
+}
+#flex-item{
+    flex-basis: 30%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(236, 37, 37) rgb(51, 63, 224);
+    border-width: 6px;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 15px;
+    position: relative;
+}
+.wrapper{
+    position: relative;
+
+}
+img{
+    width: 390px;
+    height: 250px;
+    backface-visibility: hidden;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+}
+.holder{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.holder a{
+    display: block;
+    background: linear-gradient(rgb(107, 107, 235), rgb(140, 214, 140));
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+}
+.overlay{
+    opacity: 0;
+}
+.wrapper:hover img{
+    opacity: .5;
+}
+.wrapper:hover .overlay{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.I-concepts{
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: left;
+    width: 45%;
+    font-size: 1.5rem;
+    background: radial-gradient(farthest-side at right bottom, yellow, orange 50%, purple);
+}
+.L-concepts{
+    margin: 0.5em 0 0 0;
+    padding: 0.5rem;
+    float: right;
+    width: 45%;
+    font-size: 1.5rem;
+    background: radial-gradient(farthest-side at left top, purple, yellow 50%, orange);
+
+}
+.I-concepts h3, .L-concepts h3{
+    text-decoration: underline;
+}
+form{
+    clear: both;
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 2rem;
+}
+form h3{
+    margin: 0;
+    padding: 0;
+}
+input{
+    font-size: 2rem;
+}
+footer{
+    margin-top: 1em;
+}

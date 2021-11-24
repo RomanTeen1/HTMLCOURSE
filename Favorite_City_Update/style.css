@@ -1,0 +1,206 @@
+body{
+    background: lightgray;
+}
+header{
+    background: linear-gradient(rgb(77, 172, 77), rgb(240, 222, 222), rgb(216, 110, 110), rgb(123, 123, 204),rgb(235, 235, 30));
+    
+}
+#header-section .img-1{
+    float: left;
+    width: 250px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+}
+#header-section h1{
+    float: left;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding:20px 0 20px 25px; 
+}
+#header-section .img-2{
+    float: right;
+    height: 180px;
+    width: 270px;
+    margin: 0;
+    padding: 0;
+}
+header h3{
+    clear: both;
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: solid ;
+    padding: 0 50px 0 50px;
+}
+nav {
+    background: transparent;
+    margin-top: 1%;
+}
+nav ul{
+    transition: 1s;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+li:hover{
+    background: rgb(136, 136, 238);
+    transition: 1s;
+}
+
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    padding: 0;
+}
+#images .column{
+    flex: 50%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#images .column img{
+    margin: 0;
+    padding: 0;
+    width: 665px;
+    height: 400px;
+}
+.about{ 
+    margin-top: 20px;
+    height: 700px;
+    float: left;
+    width: 50%;
+    padding: 5% 3% 0 3%;
+    background-color: rgb(107, 212, 107);
+    border-radius: 20%;
+}
+.about h2 {
+    background-color:rgb(241, 128, 128);
+    width: 40%;
+    padding: 2% 0 0 5%;
+    border-radius: 250px 0 250px 0;
+    text-transform: uppercase;
+}
+.about p{
+    font-size: 20px;
+}
+table {
+    margin-top: 30px;
+    float: right;
+    width: 35%;
+    font-size: 20px;
+    border-radius: 20px 0 0 30px;
+    background-color: rgb(99, 176, 224);
+    padding-top: 10px;
+}
+table th{
+    text-align: right;
+    background: rgb(224, 161, 161);
+    padding: 10px 30px 0 0;
+    border-radius: 20px 0 0 20px;
+}
+table td{
+    text-align: right;
+    padding: 0;
+}
+table .value{
+    float: right;
+    padding: 0 0 0 5px ;
+}
+#pred-movie{
+    clear: right;
+    padding-left: 10%;
+}
+#pred-movie img{
+    margin-left: 10%;
+    height: 400px;
+}
+figcaption{
+    font-size: 20px;
+}
+#clear{
+    clear: both;
+}
+#attraction{
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, rgb(73, 73, 240), rgb(255, 255, 69));
+    padding: 10px;
+    border-radius: 30px 30px 0 0;;
+}
+article .offer p{
+    display: block;
+    background: rgb(224, 212, 212);
+    height: 300px;
+    padding: 10px 10px 0 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article .offer h2{
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(235, 109, 77), rgb(214, 250, 86));
+    width: 15%;
+}
+.special-img{
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    border-radius: 20%;
+}
+.offer {
+    background: linear-gradient(to right, rgb(111, 241, 111), rgb(106, 106, 216));
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    height: 300px;
+}
+#Talpa-title, #Eden-title{
+    float: right;
+    text-align: right;
+}
+.right-par{
+    clear: right;
+    text-align: left;
+    margin-left: 43%;
+    width: 55%;
+}
+.right-link{
+    float: right;
+}
+#Mis, #banderas{
+    left: 57%;
+}
+.left-par{
+    height: 300px;
+    width: 55%;
+}
+
+form{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40% 0 40%;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+form input{
+    font-size: 20px;
+}
+form select{
+    font-size: 20px;
+}
+form button{
+    font-size: 24px;
+}

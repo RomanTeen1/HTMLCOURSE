@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>
+            HTML Cheat Sheet
+        </title>
+    </head>
+    <body>
+        <!-- Heading all the way to h6-->
+        <h1>Hello</h1>
+        <h2>Hello</h2>
+        <!--paragraph-->
+        <p>This is a <strong>paragraph</strong> 
+            the <em>write anthing</em> <a href="http://google.com" 
+            target="_blank">you want</a>
+        </p>
+        <!--Lists unordered-->
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+        </ul>
+
+        <!--Lists ordered-->
+        <ol>
+            <li>list 1</li>
+            <li>list 2</li>
+        </ol>
+        <!--Table 
+        thead = table head
+        tbody = table body
+        tr= tabel row
+        th = table heading
+        td = table data
+        -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Felipe</td>
+                    <td>Felipe.@gamil.com</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--Forms
+        actoin and method don't worry it is for advance learning
+        for the server side.
+        -->
+        <br>
+        <hr>
+        <br>
+        <form action="process.php" method="GET"> 
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" 
+                placeholder="enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="nastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male"> male</option>
+                    <option value="female"> female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age: </label>
+                <input type="number"name="age"value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit Button">
+        </form>
+        <!--Button
+        requires JS to make it work
+        -->
+        <br>
+        <button>Click me</button>
+        <br>
+        <!--Image-->
+        <a href="https://na.leagueoflegends.com/en-us/" target="_blank">
+        <img src="league.jpg" alt="League Image here" width="500px" 
+        height="300px">
+        </a>
+        <br>
+        <!--Quotations-->
+        <blockquote cite="http://traversymedia.com">
+            <abbr title="Abrriviation tag"> Lorem </abbr> 
+        </blockquote>
+    </body>
+</html>

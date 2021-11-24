@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#places">Places to Visit</a></li>
+            <li><a href="index.html#city-data">City Data</a></li>
+        </ul>
+    </nav>
+    <form action="form_survey.php" method="post" id="reservations">
+        <h1>Reservations</h1>
+        <label>First Name</label>
+        <input type="text" name="fname" placeholder="Felipe" required>
+
+        <label>Last Name</label>
+        <input type="text" name="lname" placeholder="Quezada" required>
+
+        <label>Street Address</label>
+        <input type="text" name="address" placeholder="9423">
+        <input type="text" name="Street" placeholder="Kings Avenue">
+        
+        <label>City</label>
+        <input type="text" name="city" placeholder="Los Angeles">
+
+        <label>State</label>
+        <input type="text" name="State" placeholder="California">
+
+        <label>Zipcode</label>
+        <input type="text" name="zipcode" placeholder="90241">
+
+        <label>Email Adress</label>
+        <input type="email" name="email" placeholder="fquez123@gmail.com" required>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" placeholder="564-255-3434">
+
+        <label>Age</label>
+        <select name="age-options">
+            <option value="" disabled="" selected="">Pick Your Age</option>
+            <option value="1">Under 18</option>
+            <option value="2">18-25</option>
+            <option value="3">26-35</option>
+            <option value="4">36-45</option>
+            <option value="5">46-55</option>
+            <option value="6">56 and higher</option>
+        </select>
+
+        <label>Date You Wish to Plan Reservations</label>
+        <input type="date" name="date-reservation">
+
+        <label>Total Guest</label>
+        <input type="number" name="Total-Guest" min="1" max="50">
+
+        <label>Comments</label>
+        <textarea name="comments" placeholder="Comments, Questions, or Concerns"></textarea>
+
+        <button type="submit">Submit</button>
+        
+        <footer>&copy Made By Felipe Quezada</footer>
+    </form>
+</body>
+</html>
